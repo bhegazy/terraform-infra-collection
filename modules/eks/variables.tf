@@ -29,7 +29,7 @@ variable "vpc_private_subnets_ids" {
   type        = list(string)
   default     = []
 }
-variable vpc_public_subnets_ids {
+variable "vpc_public_subnets_ids" {
   description = "vpc_private_subnets_ids have to be set"
   type        = list(string)
   default     = []
